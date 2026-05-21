@@ -8,8 +8,8 @@ from telegram.ext import (
 )
 import os
 
-BOT_TOKEN = os.getenv("8943722990:AAE0UdkJvSRUFwJDAiwIPW9PT2aAJPwpn6c") 
-ADMIN_GROUP_ID = os.getenv("ID:-5207048723")
+BOT_TOKEN = os.getenv "8943722990:AAE0UdkJvSRUFwJDAiwIPW9PT2aAJPwpn6c" 
+ADMIN_GROUP_ID = os.getenv "ID:-5207048723"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Заказингизни юборинг")
