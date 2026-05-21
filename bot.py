@@ -9,7 +9,7 @@ from telegram.ext import (
 import os
 
 BOT_TOKEN = os.getenv = "8943722990:AAH184Z8Dxl6kyuqAxpnxmeO8Mtpqy7DGhc" 
-ADMIN_GROUP_ID = ADMIN_GROUP_ID = int(os.getenv("ID:-5207048723"))
+ADMIN_GROUP_ID = ADMIN_GROUP_ID = то -5207048723
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Заказингизни юборинг")
